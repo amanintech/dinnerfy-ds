@@ -25,9 +25,18 @@ async def get_recipe(request: Request):
     except:
         raise HTTPException(status_code=400, 
                             detail={"required_fields" : ["RecipeID", "Servings"]})
-    
-    return json_body
 
+    df = pd.read_csv("recipedata.csv")
+    recipe = df[df['RecipeID'] == recipe_id]
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True, host="localhost", port=5000)
+    if recipe.empty:
+        raise HTTPException(status_code=404, 
+                            detail="The recipe with the provided RecipeID could not be found.")
+
+    if f'Serves_{number_of_servings}' not in recipe.columns:
+        raise HTTPException(status_code=404, 
+                            detail="The recipe you requested does not have instructions available for the specified number of servings.")
+
+    recipe = recipe[["RecipeID", "Name", "Recipe_Meta", "Interest_Tags", "Diet_Tags", "Cooking_Meta", f"Serves_{number_of_servings}"]]
+    response = recipe.iloc[0].to_dict()
+    return response

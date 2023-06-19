@@ -1,0 +1,834 @@
+{
+   "RecipeID":"1",
+   "Name":"Veg Biryani",
+   "imageURL":"https://v5.airtableusercontent.com/v1/18/18/1687168800000/4wJVgFTbwCCDZ7BGgx8EvA/_YLzI_KX6Mgt7DKoHqjeWIIBwxM3K78JRJQtok7wmXrFEDOjAti7OxuWJ2se7oKzept4arxev2peHYPt4aPcAPZqCTnVcUuc3_Yy65z6ESjbA7POgzfQ-RsrHBFpy-jzD0t89ti89D-sJniA_jjclE5rgCEeX9wuUajKWnBg3ffG7tsxdavvVEQbXEKpYG3zCyiUxySBDHKLiIeIR52BuA/_0gBU9fD7dKSEYmEwEU2ePLsu9thGFIX2ZWU88ejUNQ",
+   "themeColor":"null",
+   "RecordID":"rec504vwu2cAuhahw",
+   "creatorID":"Dinnerfy",
+   "Recipe_Meta":{
+      "informationSource":"My Kitchen",
+      "description":"A delicious and aromatic Indian rice dish made with mixed vegetables and spices.",
+      "Aliases":[
+         "Vegetable Biryani"
+      ],
+      "carbonFootprint":"0.5",
+      "calories":"350",
+      "popularRegion":[
+         "India",
+         "Pakistan",
+         "Bangladesh"
+      ],
+      "nutritionFact":[
+         "Protein - 8g",
+         "Fat - 10g",
+         "Carbohydrates - 50g",
+         "Fiber - 5g"
+      ],
+      "rating":{
+         "starRating":"4.5",
+         "noOfReviews":"100"
+      }
+   },
+   "Interest_Tags":{
+      "tags":[
+         "🍚 Rice",
+         "🍅 Spicy",
+         "🌶️ Indian",
+         "🍲 One Pot Meal"
+      ],
+      "confidence":[
+         0.9,
+         0.7,
+         0.6,
+         0.5
+      ]
+   },
+   "Diet_Tags":[
+      "🥬 Low FODMAP",
+      "🥗 Vegetarian",
+      "🌾 Whole grain",
+      "🕌 Halal",
+      "✡️ Kosher"
+   ],
+   "Cooking_Meta":{
+      "ingredientsID":[
+         "Basmati_Rice",
+         "Onion",
+         "Tomato",
+         "Green_Chili",
+         "Ginger",
+         "Garlic",
+         "Carrot",
+         "Green_Peas",
+         "Cauliflower",
+         "Potato",
+         "Cumin_Seeds",
+         "Bay_Leaves",
+         "Cinnamon_Stick",
+         "Cloves",
+         "Cardamom",
+         "Turmeric_Powder",
+         "Red_Chili_Powder",
+         "Coriander_Powder",
+         "Garam_Masala_Powder",
+         "Salt",
+         "Water",
+         "Oil",
+         "Ghee",
+         "Cashews",
+         "Raisins",
+         "Mint_Leaves",
+         "Coriander_Leaves"
+      ],
+      "ingredients":[
+         {
+            "ingredientName":"Basmati Rice",
+            "ingredientID":"Basmati_Rice",
+            "quantity":[
+               {
+                  "1":"1 cup"
+               },
+               {
+                  "2":"2 cups"
+               },
+               {
+                  "3":"3 cups"
+               },
+               {
+                  "4":"4 cups"
+               },
+               {
+                  "5":"5 cups"
+               },
+               {
+                  "6":"6 cups"
+               }
+            ],
+            "unit":"cup",
+            "optional":false
+         },
+         {
+            "ingredientName":"Onion",
+            "ingredientID":"Onion",
+            "quantity":[
+               {
+                  "1":"1 medium"
+               },
+               {
+                  "2":"2 medium"
+               },
+               {
+                  "3":"3 medium"
+               },
+               {
+                  "4":"4 medium"
+               },
+               {
+                  "5":"5 medium"
+               },
+               {
+                  "6":"6 medium"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Tomato",
+            "ingredientID":"Tomato",
+            "quantity":[
+               {
+                  "1":"1 medium"
+               },
+               {
+                  "2":"2 medium"
+               },
+               {
+                  "3":"3 medium"
+               },
+               {
+                  "4":"4 medium"
+               },
+               {
+                  "5":"5 medium"
+               },
+               {
+                  "6":"6 medium"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Green Chili",
+            "ingredientID":"Green_Chili",
+            "quantity":[
+               {
+                  "1":"1"
+               },
+               {
+                  "2":"2"
+               },
+               {
+                  "3":"3"
+               },
+               {
+                  "4":"4"
+               },
+               {
+                  "5":"5"
+               },
+               {
+                  "6":"6"
+               }
+            ],
+            "unit":"",
+            "optional":true
+         },
+         {
+            "ingredientName":"Ginger",
+            "ingredientID":"Ginger",
+            "quantity":[
+               {
+                  "1":"1 inch piece"
+               },
+               {
+                  "2":"2 inch piece"
+               },
+               {
+                  "3":"3 inch piece"
+               },
+               {
+                  "4":"4 inch piece"
+               },
+               {
+                  "5":"5 inch piece"
+               },
+               {
+                  "6":"6 inch piece"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Garlic",
+            "ingredientID":"Garlic",
+            "quantity":[
+               {
+                  "1":"4 cloves"
+               },
+               {
+                  "2":"8 cloves"
+               },
+               {
+                  "3":"12 cloves"
+               },
+               {
+                  "4":"16 cloves"
+               },
+               {
+                  "5":"20 cloves"
+               },
+               {
+                  "6":"24 cloves"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Carrot",
+            "ingredientID":"Carrot",
+            "quantity":[
+               {
+                  "1":"1 medium"
+               },
+               {
+                  "2":"2 medium"
+               },
+               {
+                  "3":"3 medium"
+               },
+               {
+                  "4":"4 medium"
+               },
+               {
+                  "5":"5 medium"
+               },
+               {
+                  "6":"6 medium"
+               }
+            ],
+            "unit":"",
+            "optional":true
+         },
+         {
+            "ingredientName":"Green Peas",
+            "ingredientID":"Green_Peas",
+            "quantity":[
+               {
+                  "1":"1/4 cup"
+               },
+               {
+                  "2":"1/2 cup"
+               },
+               {
+                  "3":"3/4 cup"
+               },
+               {
+                  "4":"1 cup"
+               },
+               {
+                  "5":"1 1/4 cups"
+               },
+               {
+                  "6":"1 1/2 cups"
+               }
+            ],
+            "unit":"cup",
+            "optional":true
+         },
+         {
+            "ingredientName":"Cauliflower",
+            "ingredientID":"Cauliflower",
+            "quantity":[
+               {
+                  "1":"1/4 cup"
+               },
+               {
+                  "2":"1/2 cup"
+               },
+               {
+                  "3":"3/4 cup"
+               },
+               {
+                  "4":"1 cup"
+               },
+               {
+                  "5":"1 1/4 cups"
+               },
+               {
+                  "6":"1 1/2 cups"
+               }
+            ],
+            "unit":"cup",
+            "optional":true
+         },
+         {
+            "ingredientName":"Potato",
+            "ingredientID":"Potato",
+            "quantity":[
+               {
+                  "1":"1 medium"
+               },
+               {
+                  "2":"2 medium"
+               },
+               {
+                  "3":"3 medium"
+               },
+               {
+                  "4":"4 medium"
+               },
+               {
+                  "5":"5 medium"
+               },
+               {
+                  "6":"6 medium"
+               }
+            ],
+            "unit":"",
+            "optional":true
+         },
+         {
+            "ingredientName":"Cumin Seeds",
+            "ingredientID":"Cumin_Seeds",
+            "quantity":[
+               {
+                  "1":"1 tsp"
+               },
+               {
+                  "2":"2 tsp"
+               },
+               {
+                  "3":"3 tsp"
+               },
+               {
+                  "4":"4 tsp"
+               },
+               {
+                  "5":"5 tsp"
+               },
+               {
+                  "6":"6 tsp"
+               }
+            ],
+            "unit":"tsp",
+            "optional":false
+         },
+         {
+            "ingredientName":"Bay Leaves",
+            "ingredientID":"Bay_Leaves",
+            "quantity":[
+               {
+                  "1":"1"
+               },
+               {
+                  "2":"2"
+               },
+               {
+                  "3":"3"
+               },
+               {
+                  "4":"4"
+               },
+               {
+                  "5":"5"
+               },
+               {
+                  "6":"6"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Cinnamon Stick",
+            "ingredientID":"Cinnamon_Stick",
+            "quantity":[
+               {
+                  "1":"1 inch piece"
+               },
+               {
+                  "2":"2 inch piece"
+               },
+               {
+                  "3":"3 inch piece"
+               },
+               {
+                  "4":"4 inch piece"
+               },
+               {
+                  "5":"5 inch piece"
+               },
+               {
+                  "6":"6 inch piece"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Cloves",
+            "ingredientID":"Cloves",
+            "quantity":[
+               {
+                  "1":"2"
+               },
+               {
+                  "2":"4"
+               },
+               {
+                  "3":"6"
+               },
+               {
+                  "4":"8"
+               },
+               {
+                  "5":"10"
+               },
+               {
+                  "6":"12"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Cardamom",
+            "ingredientID":"Cardamom",
+            "quantity":[
+               {
+                  "1":"2"
+               },
+               {
+                  "2":"4"
+               },
+               {
+                  "3":"6"
+               },
+               {
+                  "4":"8"
+               },
+               {
+                  "5":"10"
+               },
+               {
+                  "6":"12"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Turmeric Powder",
+            "ingredientID":"Turmeric_Powder",
+            "quantity":[
+               {
+                  "1":"1/4 tsp"
+               },
+               {
+                  "2":"1/2 tsp"
+               },
+               {
+                  "3":"3/4 tsp"
+               },
+               {
+                  "4":"1 tsp"
+               },
+               {
+                  "5":"1 1/4 tsp"
+               },
+               {
+                  "6":"1 1/2 tsp"
+               }
+            ],
+            "unit":"tsp",
+            "optional":false
+         },
+         {
+            "ingredientName":"Red Chili Powder",
+            "ingredientID":"Red_Chili_Powder",
+            "quantity":[
+               {
+                  "1":"1/2 tsp"
+               },
+               {
+                  "2":"1 tsp"
+               },
+               {
+                  "3":"1 1/2 tsp"
+               },
+               {
+                  "4":"2 tsp"
+               },
+               {
+                  "5":"2 1/2 tsp"
+               },
+               {
+                  "6":"3 tsp"
+               }
+            ],
+            "unit":"tsp",
+            "optional":false
+         },
+         {
+            "ingredientName":"Coriander Powder",
+            "ingredientID":"Coriander_Powder",
+            "quantity":[
+               {
+                  "1":"1 tsp"
+               },
+               {
+                  "2":"2 tsp"
+               },
+               {
+                  "3":"3 tsp"
+               },
+               {
+                  "4":"4 tsp"
+               },
+               {
+                  "5":"5 tsp"
+               },
+               {
+                  "6":"6 tsp"
+               }
+            ],
+            "unit":"tsp",
+            "optional":false
+         },
+         {
+            "ingredientName":"Garam Masala Powder",
+            "ingredientID":"Garam_Masala_Powder",
+            "quantity":[
+               {
+                  "1":"1/2 tsp"
+               },
+               {
+                  "2":"1 tsp"
+               },
+               {
+                  "3":"1 1/2 tsp"
+               },
+               {
+                  "4":"2 tsp"
+               },
+               {
+                  "5":"2 1/2 tsp"
+               },
+               {
+                  "6":"3 tsp"
+               }
+            ],
+            "unit":"tsp",
+            "optional":false
+         },
+         {
+            "ingredientName":"Salt",
+            "ingredientID":"Salt",
+            "quantity":[
+               {
+                  "1":"to taste"
+               },
+               {
+                  "2":"to taste"
+               },
+               {
+                  "3":"to taste"
+               },
+               {
+                  "4":"to taste"
+               },
+               {
+                  "5":"to taste"
+               },
+               {
+                  "6":"to taste"
+               }
+            ],
+            "unit":"",
+            "optional":false
+         },
+         {
+            "ingredientName":"Water",
+            "ingredientID":"Water",
+            "quantity":[
+               {
+                  "1":"2 cups"
+               },
+               {
+                  "2":"4 cups"
+               },
+               {
+                  "3":"6 cups"
+               },
+               {
+                  "4":"8 cups"
+               },
+               {
+                  "5":"10 cups"
+               },
+               {
+                  "6":"12 cups"
+               }
+            ],
+            "unit":"cup",
+            "optional":false
+         },
+         {
+            "ingredientName":"Oil",
+            "ingredientID":"Oil",
+            "quantity":[
+               {
+                  "1":"2 tbsp"
+               },
+               {
+                  "2":"4 tbsp"
+               },
+               {
+                  "3":"6 tbsp"
+               },
+               {
+                  "4":"8 tbsp"
+               },
+               {
+                  "5":"10 tbsp"
+               },
+               {
+                  "6":"12 tbsp"
+               }
+            ],
+            "unit":"tbsp",
+            "optional":false
+         },
+         {
+            "ingredientName":"Ghee",
+            "ingredientID":"Ghee",
+            "quantity":[
+               {
+                  "1":"1 tbsp"
+               },
+               {
+                  "2":"2 tbsp"
+               },
+               {
+                  "3":"3 tbsp"
+               },
+               {
+                  "4":"4 tbsp"
+               },
+               {
+                  "5":"5 tbsp"
+               },
+               {
+                  "6":"6 tbsp"
+               }
+            ],
+            "unit":"tbsp",
+            "optional":true
+         },
+         {
+            "ingredientName":"Cashews",
+            "ingredientID":"Cashews",
+            "quantity":[
+               {
+                  "1":"5-6"
+               },
+               {
+                  "2":"10-12"
+               },
+               {
+                  "3":"15-18"
+               },
+               {
+                  "4":"20-24"
+               },
+               {
+                  "5":"25-30"
+               },
+               {
+                  "6":"30-36"
+               }
+            ],
+            "unit":"",
+            "optional":true
+         },
+         {
+            "ingredientName":"Raisins",
+            "ingredientID":"Raisins",
+            "quantity":[
+               {
+                  "1":"5-6"
+               },
+               {
+                  "2":"10-12"
+               },
+               {
+                  "3":"15-18"
+               },
+               {
+                  "4":"20-24"
+               },
+               {
+                  "5":"25-30"
+               },
+               {
+                  "6":"30-36"
+               }
+            ],
+            "unit":"",
+            "optional":true
+         },
+         {
+            "ingredientName":"Mint Leaves",
+            "ingredientID":"Mint_Leaves",
+            "quantity":[
+               {
+                  "1":"5-6"
+               },
+               {
+                  "2":"10-12"
+               },
+               {
+                  "3":"15-18"
+               },
+               {
+                  "4":"20-24"
+               },
+               {
+                  "5":"25-30"
+               },
+               {
+                  "6":"30-36"
+               }
+            ],
+            "unit":"",
+            "optional":true
+         },
+         {
+            "ingredientName":"Coriander Leaves",
+            "ingredientID":"Coriander_Leaves",
+            "quantity":[
+               {
+                  "1":"5-6"
+               },
+               {
+                  "2":"10-12"
+               },
+               {
+                  "3":"15-18"
+               },
+               {
+                  "4":"20-24"
+               },
+               {
+                  "5":"25-30"
+               },
+               {
+                  "6":"30-36"
+               }
+            ],
+            "unit":"",
+            "optional":true
+         }
+      ],
+      "tools":[
+         "Pressure_Cooker",
+         "Pan",
+         "Spatula",
+         "Knife",
+         "Cutting_Board",
+         "Measuring_Cups",
+         "Measuring_Spoons"
+      ],
+      "cookTime":"30",
+      "prepTime":"20",
+      "difficulty":"Medium",
+      "steps":8
+   },
+
+   "Serve_2":{
+      "recipeSource":"My Kitchen",
+      "lastUpdated":"2021-09-20",
+      "instructions":[
+         {
+            "stepNumber":1,
+            "stageTitle":"Preparation",
+            "stepType":"prep",
+            "instruction":"Wash and soak 1 cup of basmati rice in water for 30 minutes. Chop 1 onion, 1 tomato, 1 carrot, and 1 potato into small pieces. Grind 1 inch ginger and 4 garlic cloves into a paste. Soak 10-12 cashews in water for 10 minutes.",
+            "time":30,
+            "tool":"bowl, knife, blender"
+         },
+         {
+            "stepNumber":2,
+            "stageTitle":"Cooking",
+            "stepType":"cook",
+            "instruction":"Heat 2 tablespoons of oil in a pan. Add 1 bay leaf, 2 cloves, 2 cardamom pods, and 1 cinnamon stick. Add the chopped onion and sauté until golden brown. Add the ginger-garlic paste and sauté for 1 minute. Add the chopped vegetables and sauté for 2-3 minutes. Add 1 teaspoon of biryani masala and mix well. Drain the soaked rice and add it to the pan. Add 2 cups of water and salt to taste. Mix well and cover the pan with a lid. Cook on low flame for 15-20 minutes or until the rice is cooked.",
+            "time":30,
+            "tool":"pan, spatula, lid"
+         },
+         {
+            "stepNumber":3,
+            "stageTitle":"Serving",
+            "stepType":"serve",
+            "instruction":"Garnish with chopped coriander leaves and fried onions. Serve hot with raita or pickle.",
+            "time":0,
+            "tool":"plate, spoon"
+         }
+      ]
+   }
+
+
+}

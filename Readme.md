@@ -7,6 +7,8 @@ Assignment for data science position
 2. Read the content of recipedata.csv  
 3. Write a post endpoint in main.py that takes [recipeID, number of serving] as an input variable and returns the whole recipe as a JSON object.
 4. Refer to recipe.json for the structure of JSON output
+5. Once complete create a pull request to this repo
+6. Bonus points for deploying the app on heroku / Railway ...
 
 # example 
 

@@ -13,5 +13,7 @@ Assignment for data science position
 # example 
 
 Endpoint: http://localhost:5000/recipe
-input : { RecipeID: 1, Servings: 2 }
-Ouput: { JSON Output }
+
+input : `{ RecipeID: 1, Servings: 2 }`
+
+Ouput: `{ JSON Output }`

@@ -1,4 +1,5 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, HTTPException
+import uvicorn, json, pandas as pd
 
 app = FastAPI()
 
@@ -15,6 +16,18 @@ async def say_hello(name: str):
 
 @app.post("/recipe")
 async def get_recipe(request: Request):
+    body = await request.body()
 
-# Write your post function here -
-    return {"Data"}
+    try:
+        json_body = json.loads(body)
+        recipe_id = json_body['RecipeID']
+        number_of_servings = json_body['Servings']
+    except:
+        raise HTTPException(status_code=400, 
+                            detail={"required_fields" : ["RecipeID", "Servings"]})
+    
+    return json_body
+
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", reload=True, host="localhost", port=5000)

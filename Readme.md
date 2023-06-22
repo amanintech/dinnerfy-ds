@@ -19,5 +19,5 @@ input : `{ RecipeID: 1, Servings: 2 }`
 Ouput: `{ JSON Output }`
 
 # Steps (for running on local host 5000 endpoint)
-## in terminal
-### python init.py
+### in terminal run : pip install -r requirements.txt
+### in terminal run : python init.py

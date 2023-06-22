@@ -2,9 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
 import json
-import os
 app = FastAPI()
-os.environ["UVICORN_PORT"] = "5000"
+
 class Request(BaseModel):
     RecipeID: int
     Servings: int

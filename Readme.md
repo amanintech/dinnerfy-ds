@@ -17,3 +17,7 @@ Endpoint: http://localhost:5000/recipe
 input : `{ RecipeID: 1, Servings: 2 }`
 
 Ouput: `{ JSON Output }`
+
+# Steps (for running on local host 5000 endpoint)
+in terminal
+python init.py

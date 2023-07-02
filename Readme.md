@@ -17,3 +17,12 @@ Endpoint: http://localhost:5000/recipe
 input : `{ RecipeID: 1, Servings: 2 }`
 
 Ouput: `{ JSON Output }`
+
+# Steps (for running on local host 5000 endpoint)
+### in terminal run : pip install -r requirements.txt
+### in terminal run : python init.py
+
+
+# The API is hosted at 
+### https://dinnerfy-ds-production.up.railway.app/
+### https://dinnerfy-ds-production.up.railway.app/recipe

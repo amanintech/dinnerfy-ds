@@ -46,8 +46,13 @@ def process_recipe_meta(recipe_meta):
 # async def say_hello(name: str):
 #     return {"message": f"Hello {name}"}
 
+# Route for the root endpoint
+@app.get("/")
+async def root():
+    return {"message": "Welcome to Dinnerfy"}
+
 # Route for the /recipe endpoint
-@app.post("/recipe")
+@app.get("/recipe/{recipe_id}/{serving}")
 async def get_recipe(recipe_id: int, serving: int):
     # Finding the recipe with the given recipe_id
     recipe = df[df['RecipeID'] == recipe_id].iloc[0]

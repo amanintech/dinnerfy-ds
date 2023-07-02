@@ -46,10 +46,10 @@ def process_recipe_meta(recipe_meta):
 # async def say_hello(name: str):
 #     return {"message": f"Hello {name}"}
 
-# Route for the root endpoint
-@app.get("/")
-async def root():
-    return {"message": "Welcome to Dinnerfy"}
+# Redirect the root endpoint to the OpenAPI documentation
+@app.get("/", include_in_schema=False)
+def index():
+    return RedirectResponse("/docs", status_code=308)
 
 # Route for the /recipe endpoint
 @app.get("/recipe/{recipe_id}/{serving}")

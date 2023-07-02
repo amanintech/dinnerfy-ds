@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import json
+from fastapi.responses import RedirectResponse
 
 app = FastAPI(title="dinnerfy")
 

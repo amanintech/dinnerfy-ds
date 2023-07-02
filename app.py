@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-app = FastAPI()
+app = FastAPI(title="dinnerfy")
 
 # Reading the 'recipedata.csv' file
 df = pd.read_csv('recipedata.csv')
@@ -48,7 +48,7 @@ def process_recipe_meta(recipe_meta):
 
 # Route for the /recipe endpoint
 @app.post("/recipe")
-async def get_recipe(request: Request, recipe_id: int, serving: int):
+async def get_recipe(recipe_id: int, serving: int):
     # Finding the recipe with the given recipe_id
     recipe = df[df['RecipeID'] == recipe_id].iloc[0]
 

@@ -37,14 +37,14 @@ def process_recipe_meta(recipe_meta):
     return recipe_meta
 
 # Route for the root endpoint
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+# @app.get("/")
+# async def root():
+#     return {"message": "Hello World"}
 
 # Route for the /hello/{name} endpoint
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
+# @app.get("/hello/{name}")
+# async def say_hello(name: str):
+#     return {"message": f"Hello {name}"}
 
 # Route for the /recipe endpoint
 @app.post("/recipe")

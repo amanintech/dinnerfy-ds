@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from fastapi.responses import RedirectResponse
+from pydantic import BaseMode
 
 app = FastAPI(title="dinnerfy")
 
@@ -37,6 +38,11 @@ def process_recipe_meta(recipe_meta):
 
     return recipe_meta
 
+class RequestData(BaseModel):
+    recipe_id: int
+    serving: int
+
+
 # Redirect the root endpoint to the OpenAPI documentation
 @app.get("/", include_in_schema=False)
 def index():
@@ -44,9 +50,9 @@ def index():
 
 # Route for the /recipe endpoint
 @app.post("/recipe")
-async def get_recipe(request: Request):
-    recipe_id = int(request.query_params['recipe_id'])
-    serving = int(request.query_params['serving'])
+async def get_recipe(request_data: RequestData):
+    rrecipe_id = request_data.query_params['recipe_id']
+    serving = request_data.query_params['serving']
 
     # Finding the recipe with the given recipe_id
     recipe = df[df['RecipeID'] == recipe_id].iloc[0]

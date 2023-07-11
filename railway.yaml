@@ -1,0 +1,9 @@
+version: 2
+env: python
+build:
+  steps:
+    - run: pip install -r requirements.txt
+  env:
+    - PYTHON_VERSION: 3.8
+start:
+  web: uvicorn main:app --host 0.0.0.0 --port $PORT

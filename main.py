@@ -44,4 +44,16 @@ def get_recipe(request: Request):
             "Error": "Invalid Servings",
         }
 
-    return {"Data": json.loads(row[index][0])}
+    required_data = ["RecipeID", "Name", "Recipe_Meta", "Interest_Tags", "Diet_Tags", "Cooking_Meta", index]
+    data = {}
+    for col in required_data:
+        curr_data = row[col][RecipeID-1]
+        try:
+            data[col] = int(curr_data)
+        except:
+            try:
+                data[col] = json.loads(curr_data)
+            except:
+                data[col] = curr_data
+
+    return data

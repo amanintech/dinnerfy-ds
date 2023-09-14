@@ -1,0 +1,481 @@
+[
+  {
+    "ingredientName": "Ground Chuck",
+    "ingredientID": "Ground_Chuck",
+    "quantity": 1.5,
+    "unit": "lbs",
+    "notes": "(80% lean)"
+  },
+  {
+    "ingredientName": "White Onion",
+    "ingredientID": "White_Onion",
+    "quantity": 1.5,
+    "unit": "cups",
+    "notes": "small-diced (about 1 small)"
+  },
+  {
+    "ingredientName": "Garlic Powder",
+    "ingredientID": "Garlic_Powder",
+    "quantity": 1,
+    "unit": "tbsp"
+  },
+  {
+    "ingredientName": "Italian Seasoning",
+    "ingredientID": "Italian_Seasoning",
+    "quantity": 1,
+    "unit": "tbsp"
+  },
+  {
+    "ingredientName": "Kosher Salt",
+    "ingredientID": "Kosher_Salt",
+    "quantity": 1.5,
+    "unit": "tsp"
+  },
+  {
+    "ingredientName": "Black Pepper",
+    "ingredientID": "Black_Pepper",
+    "quantity": 1,
+    "unit": "tsp"
+  },
+  {
+    "ingredientName": "Stewed Tomatoes",
+    "ingredientID": "Stewed_Tomatoes",
+    "quantity": 58,
+    "unit": "oz",
+    "optional": true
+  },
+  {
+    "ingredientName": "Roasted Tomatoes",
+    "ingredientID": "Roasted_Tomatoes",
+    "quantity": 58,
+    "unit": "oz",
+    "optional": true
+  },
+  {
+    "ingredientName": "Fresh Garlic",
+    "ingredientID": "Fresh_Garlic",
+    "quantity": 4,
+    "unit": "cloves",
+    "notes": "minced"
+  },
+  {
+    "ingredientName": "Fresh Basil Leaves",
+    "ingredientID": "Fresh_Basil_Leaves",
+    "quantity": 0.5,
+    "unit": "cup",
+    "notes": "loosely packed, torn"
+  },
+  {
+    "ingredientName": "Cream Cheese",
+    "ingredientID": "Cream_Cheese",
+    "quantity": 8,
+    "unit": "oz",
+    "notes": "at room temperature"
+  },
+  {
+    "ingredientName": "Ricotta",
+    "ingredientID": "Ricotta",
+    "quantity": 8,
+    "unit": "oz",
+    "notes": "whole-milk"
+  },
+  {
+    "ingredientName": "Eggs",
+    "ingredientID": "Eggs",
+    "quantity": 2,
+    "unit": "large"
+  },
+  {
+    "ingredientName": "Mozzarella Cheese",
+    "ingredientID": "Mozzarella_Cheese",
+    "quantity": 16,
+    "unit": "oz",
+    "notes": "shredded"
+  },
+  {
+    "ingredientName": "Lasagna Noodles",
+    "ingredientID": "Lasagna_Noodles",
+    "quantity": 12,
+    "unit": "noodles",
+    "notes": "uncooked"
+  },
+  {
+    "ingredientName": "Fresh Mozzarella Balls",
+    "ingredientID": "Fresh_Mozzarella_Balls",
+    "quantity": 4,
+    "unit": "oz",
+    "notes": "torn into 1- to 2-inch chunks"
+  }
+]
+
+[
+  {
+    "ingredientName": "angel hair pasta",
+    "ingredientID": "Angel_Hair_Pasta",
+    "quantity": 16,
+    "unit": "ounces",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "thin asparagus",
+    "ingredientID": "Thin_Asparagus",
+    "quantity": 1,
+    "unit": "pound",
+    "notes": "ends trimmed, cut into 2-inch pieces",
+    "optional": false
+  },
+  {
+    "ingredientName": "unsalted butter",
+    "ingredientID": "Unsalted_Butter",
+    "quantity": 8,
+    "unit": "tablespoons (1 stick)",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "garlic cloves",
+    "ingredientID": "Garlic_Cloves",
+    "quantity": 6,
+    "unit": "",
+    "notes": "minced",
+    "optional": false
+  },
+  {
+    "ingredientName": "jumbo shrimp",
+    "ingredientID": "Jumbo_Shrimp",
+    "quantity": 1,
+    "unit": "pound",
+    "notes": "peeled and deveined",
+    "optional": false
+  },
+  {
+    "ingredientName": "kosher salt",
+    "ingredientID": "Kosher_Salt",
+    "quantity": 1,
+    "unit": "teaspoon",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "good-quality dry white wine",
+    "ingredientID": "Dry_White_Wine",
+    "quantity": 1,
+    "unit": "cup",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "lemon juice",
+    "ingredientID": "Lemon_Juice",
+    "quantity": 0.5,
+    "unit": "cup",
+    "notes": "from about 2 lemons",
+    "optional": false
+  },
+  {
+    "ingredientName": "chopped fresh parsley",
+    "ingredientID": "Chopped_Fresh_Parsley",
+    "quantity": 2,
+    "unit": "tablespoons",
+    "notes": "plus more for garnish (optional)",
+    "optional": false
+  },
+  {
+    "ingredientName": "extra virgin olive oil",
+    "ingredientID": "Extra_Virgin_Olive_Oil",
+    "quantity": 0,
+    "unit": "for drizzling",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "minced dill",
+    "ingredientID": "Minced_Dill",
+    "quantity": 1,
+    "unit": "teaspoon",
+    "notes": "for garnish (optional)",
+    "optional": false
+  }
+]
+
+[
+  {
+    "ingredientName": "Black beans",
+    "ingredientID": "Black_beans",
+    "quantity": 1,
+    "unit": "16 ounce can",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Pinto beans",
+    "ingredientID": "Pinto_beans",
+    "quantity": 1,
+    "unit": "16 ounce can",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Cannellini beans",
+    "ingredientID": "Cannellini_beans",
+    "quantity": 1,
+    "unit": "16 ounce can",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Onion",
+    "ingredientID": "Onion",
+    "quantity": 1,
+    "unit": "",
+    "notes": "chopped",
+    "optional": false
+  },
+  {
+    "ingredientName": "Green bell pepper",
+    "ingredientID": "Green_bell_pepper",
+    "quantity": 1,
+    "unit": "",
+    "notes": "chopped",
+    "optional": false
+  },
+  {
+    "ingredientName": "Garlic",
+    "ingredientID": "Garlic",
+    "quantity": 4,
+    "unit": "cloves",
+    "notes": "chopped",
+    "optional": false
+  },
+  {
+    "ingredientName": "Diced tomatoes with green chiles",
+    "ingredientID": "Diced_tomatoes_with_green_chiles",
+    "quantity": 2,
+    "unit": "16 ounce cans",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Chili powder",
+    "ingredientID": "Chili_powder",
+    "quantity": 1,
+    "unit": "T.",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Oregano",
+    "ingredientID": "Oregano",
+    "quantity": 1,
+    "unit": "T.",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Basil",
+    "ingredientID": "Basil",
+    "quantity": 1,
+    "unit": "T.",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Bow tie pasta",
+    "ingredientID": "Bow_tie_pasta",
+    "quantity": 8,
+    "unit": "ounces",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Chopped fresh cilantro",
+    "ingredientID": "Chopped_fresh_cilantro",
+    "quantity": 0,
+    "unit": "",
+    "notes": "",
+    "optional": false
+  }
+]
+
+[
+  {
+    "ingredientName": "Uncooked Whole-Wheat Pasta",
+    "ingredientID": "Uncooked_Whole-Wheat_Pasta",
+    "quantity": 8,
+    "unit": "ounces",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Shredded Stemmed Kale Leaves",
+    "ingredientID": "Shredded_Stemmed_Kale_Leaves",
+    "quantity": 1.25,
+    "unit": "cups",
+    "notes": "loosely packed",
+    "optional": false
+  },
+  {
+    "ingredientName": "Fresh Basil Leaves",
+    "ingredientID": "Fresh_Basil_Leaves",
+    "quantity": 1.75,
+    "unit": "cups",
+    "notes": "loosely packed, plus extra for garnish",
+    "optional": false
+  },
+  {
+    "ingredientName": "Freshly Grated Parmesan Cheese",
+    "ingredientID": "Freshly_Grated_Parmesan_Cheese",
+    "quantity": 0.75,
+    "unit": "cup",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Pine Nuts",
+    "ingredientID": "Pine_Nuts",
+    "quantity": 0.5,
+    "unit": "cup",
+    "notes": "or substitute walnuts for a budget-friendly version",
+    "optional": true
+  },
+  {
+    "ingredientName": "Garlic Cloves",
+    "ingredientID": "Garlic_Cloves",
+    "quantity": 3,
+    "unit": "",
+    "notes": "peeled",
+    "optional": false
+  },
+  {
+    "ingredientName": "Extra-Virgin Olive Oil",
+    "ingredientID": "Extra-Virgin_Olive_Oil",
+    "quantity": 0.33,
+    "unit": "cup",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Butter",
+    "ingredientID": "Butter",
+    "quantity": 2,
+    "unit": "tablespoons",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Heavy Whipping Cream",
+    "ingredientID": "Heavy_Whipping_Cream",
+    "quantity": 0.75,
+    "unit": "cup",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Salt",
+    "ingredientID": "Salt",
+    "quantity": 0,
+    "unit": "to taste",
+    "notes": "",
+    "optional": false
+  },
+  {
+    "ingredientName": "Ground Black Pepper",
+    "ingredientID": "Ground_Black_Pepper",
+    "quantity": 0,
+    "unit": "to taste",
+    "notes": "",
+    "optional": false
+  }
+]
+
+[
+  {
+    "ingredientName": "Pasta",
+    "ingredientID": "Pasta",
+    "quantity": 8,
+    "unit": "oz",
+    "notes": "",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "White Wine",
+    "ingredientID": "White_Wine",
+    "quantity": 1,
+    "unit": "cup",
+    "notes": "",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Mushrooms",
+    "ingredientID": "Mushrooms",
+    "quantity": 8,
+    "unit": "oz",
+    "notes": "sliced",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Leeks",
+    "ingredientID": "Leeks",
+    "quantity": 2,
+    "unit": "medium",
+    "notes": "thinly sliced",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Olive Oil",
+    "ingredientID": "Olive_Oil",
+    "quantity": 2,
+    "unit": "tbsp",
+    "notes": "",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Garlic",
+    "ingredientID": "Garlic",
+    "quantity": 3,
+    "unit": "cloves",
+    "notes": "minced",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Vegetable Broth",
+    "ingredientID": "Vegetable_Broth",
+    "quantity": 2,
+    "unit": "cups",
+    "notes": "",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Salt",
+    "ingredientID": "Salt",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Black Pepper",
+    "ingredientID": "Black_Pepper",
+    "quantity": 1,
+    "unit": "tsp",
+    "notes": "",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Parmesan Cheese",
+    "ingredientID": "Parmesan_Cheese",
+    "quantity": 1,
+    "unit": "cup",
+    "notes": "grated",
+    "optional": "false"
+  },
+  {
+    "ingredientName": "Fresh Parsley",
+    "ingredientID": "Fresh_Parsley",
+    "quantity": 2,
+    "unit": "tbsp",
+    "notes": "chopped",
+    "optional": "false"
+  }
+]
